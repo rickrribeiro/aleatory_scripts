@@ -1,0 +1,19 @@
+{
+  "name": "convert_logs",
+  "version": "1.0.0",
+  "description": "Repository to save small scripts that i do to test, study or automate",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node index.js",
+    "mock-request": "node index.js https://s3.amazonaws.com/uux-itaas-static/minha-cdn-logs/input-01.txt test.txt",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
