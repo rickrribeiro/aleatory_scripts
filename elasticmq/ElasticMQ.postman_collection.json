@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "49ac56ed-6fac-4534-a403-2113a95956a5",
+		"name": "ElasticMQ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10937346"
+	},
+	"item": [
+		{
+			"name": "getAllMessages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/consumer/getAll/:queue",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"consumer",
+						"getAll",
+						":queue"
+					],
+					"variable": [
+						{
+							"key": "queue",
+							"value": "firstqueue"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createMessage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"message\":\"123456\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/producer/createMessage/:queue",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"producer",
+						"createMessage",
+						":queue"
+					],
+					"variable": [
+						{
+							"key": "queue",
+							"value": "firstqueue"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getQueues",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/consumer/getQueues",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"consumer",
+						"getQueues"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,7 @@
+version: '1.0'
+services:
+  elasticmq:
+    image: myelasticmq
+    ports:
+      - 9324:9324
+    
