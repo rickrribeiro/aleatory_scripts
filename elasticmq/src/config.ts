@@ -9,6 +9,9 @@ const Config = {
     },
     firstqueue:{
         url: 'http://localhost:9324/rickrribeiro/first-queue'
+    },
+    secondqueue:{
+        url: 'http://localhost:9324/rickrribeiro/second-queue'
     }
 }
 

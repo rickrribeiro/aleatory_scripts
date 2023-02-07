@@ -8,7 +8,6 @@ class SqsService{
     private config: any;
     private connection: AWS.SQS
 
-    
     constructor(config: Config){
         this.config = config;
         this.connection = new AWS.SQS(config.aws);
@@ -28,6 +27,7 @@ class SqsService{
             QueueUrl: this.config[queue].url,
             }).promise();
     }
+
 
     async getQueues(){
         const queues = await this.connection.listQueues().promise();
