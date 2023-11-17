@@ -1,0 +1,22 @@
+{
+  "name": "remote_open_url",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "output": "dist"
+  },
+  "bin": "./index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "open": "7.4.2"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
