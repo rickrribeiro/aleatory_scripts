@@ -1,0 +1,22 @@
+{
+  "name": "mutanttests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src",
+    "test:coverage": "nyc --include=src/** mocha ./src --timeout 60000 --colors"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@stryker-mutator/core": "^7.3.0",
+    "@stryker-mutator/mocha-runner": "^7.3.0",
+    "mocha": "7.2.0",
+    "sinon": "9.0.2",
+    "chai": "^4.3.10",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+  }
+}
