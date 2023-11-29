@@ -20,13 +20,11 @@ function App() {
   }
 
   document.body.addEventListener('click', function () {
-    // Remover o ouvinte de evento de clique do corpo
     if (audioStarted) return;
     setAudioStarted(true);
-    // Simular o clique no botão invisível
     document.getElementById('startAudio')?.click();
   });
-
+  console.log(amigoSecreto)
   return (
     <div className="App h-screen w-screen">
       <button id="startAudio" onClick={startAudio} style={{ display: 'none' }}></button>
@@ -35,13 +33,12 @@ function App() {
 
       {show ? (
         <PixelatedPhoto
-          imageUrl="https://i.blogs.es/50a1c5/t4yxpvu/1366_2000.jpeg"
+          imageUrl={(sorteios as any)[amigoSecreto]}
           pixelSize={70}
           duration={6000}
         />
       ) : (
         <Canvas className='h-screen w-screen'>
-          {/* Your existing Canvas content */}
           <OrbitControls />
           <ambientLight intensity={0.5} />
           <directionalLight position={[-2, 5, 2]} intensity={1} />
