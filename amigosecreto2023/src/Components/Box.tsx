@@ -5,15 +5,19 @@ import { TextureLoader } from "three";
 import texture from '../assets/textures/topSecret.jpg';
 import AudioHandler from "../Handlers/AudioHandler";
 
-function Box() {
+function Box({setShow}: any) {
   const colorMap = useLoader(TextureLoader, texture);
   const [clicked, setClicked] = useState(false);
+  const [explode, setExplode] = useState(false);
 
   useEffect(() => {
     let interval: any;
+    if(explode){
+      setShow(true)
+    }
 
     if (clicked) {
-      let duration = 6000; // 5 seconds
+      let duration = 6000;
       let startTime = Date.now();
 
       interval = setInterval(() => {
@@ -22,9 +26,9 @@ function Box() {
         if (elapsedTime >= duration) {
           clearInterval(interval);
           setClicked(false);
+          setExplode(true);
         } else {
           const randomPosition = [Math.random(), Math.random(), Math.random()];
-          // setClicked((prevClicked) => !prevClicked);
           setPosition(randomPosition);
         }
       }, 100);
@@ -40,11 +44,11 @@ function Box() {
   const handleClick = () => {
     AudioHandler.playBatuque()
     setClicked(true);
-    
   };
 
   return (
     <mesh
+      scale={explode ? [0, 0, 0] : [0.5, 0.5, 0.5]}
       rotation={[90, 0, 20]}
       onClick={handleClick}
       position={position as any}
