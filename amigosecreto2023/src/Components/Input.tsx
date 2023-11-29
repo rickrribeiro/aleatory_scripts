@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import bgInput from '../assets/images/bginput.jpg'
 import sorteios from '../data/sorteios.json'
+import AudioHandler from '../Handlers/AudioHandler';
 
 const Input = (props: any) => {
   const [inputValue, setInputValue] = useState('');
@@ -14,6 +15,7 @@ const Input = (props: any) => {
       if (amigoSecreto) {
         console.log((sorteios as any)[amigoSecreto]);
         props.setAmigoSecreto(amigoSecreto)
+        AudioHandler.playWeAre()
       } else {
         const passSub = document.getElementById('passSub');
 

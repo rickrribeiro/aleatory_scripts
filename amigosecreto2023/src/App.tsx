@@ -8,13 +8,16 @@ import { OrbitControls } from '@react-three/drei';
 import sorteios from './data/sorteios.json'
 import AudioHandler from './Handlers/AudioHandler';
 
-function startAudio() {
-  // AudioHandler.playChristmasSong()
-}
 
 function App() {
   const [amigoSecreto, setAmigoSecreto] = useState('');
   const [audioStarted, setAudioStarted] = useState(false);
+  
+  function startAudio() {
+    if(!amigoSecreto){
+      AudioHandler.playChristmasSong()
+    }
+  }
 
   document.body.addEventListener('click', function () {
     // Remover o ouvinte de evento de clique do corpo
