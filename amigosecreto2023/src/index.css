@@ -4,20 +4,26 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .pixelated-photo-container {
   position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .pixelated-title {
@@ -25,17 +31,18 @@ code {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 5em; 
+  font-size: 5em;
   color: rgb(26, 125, 143);
-  z-index: 1; 
-  font-family: 'Pacifico', cursive; 
+  z-index: 1;
+  font-family: "Pacifico", cursive;
 }
 
 .pixelated-photo {
   width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  object-position: center center;
   transition: filter 0.5s ease-in-out;
   z-index: 0;
 }

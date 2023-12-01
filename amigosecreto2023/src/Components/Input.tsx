@@ -11,9 +11,8 @@ const Input = (props: any) => {
     setInputValue(newValue);
 
     if (newValue.length >= 6) {
-      const amigoSecreto = Object.keys(sorteios).find((el) => newValue === el);
+      const amigoSecreto = Object.keys(sorteios).find((el) => newValue === (sorteios as any)[el].senha);
       if (amigoSecreto) {
-        console.log((sorteios as any)[amigoSecreto]);
         props.setAmigoSecreto(amigoSecreto)
         AudioHandler.playWeAre()
       } else {
