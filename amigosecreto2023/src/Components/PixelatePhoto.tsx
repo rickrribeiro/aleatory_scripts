@@ -12,12 +12,16 @@ const PixelatedPhoto = ({ imageUrl, pixelSize, duration, amigoSecreto }: any) =>
       }
     }, duration / pixelSize);
 
+    setInterval(() => {
+      document.getElementById('pixelated-title')!.textContent = `seu amigo secreto é: ${amigoSecreto}`
+    }, duration + 1000);
+
     return () => clearInterval(interval);
   }, [pixels, duration, pixelSize]);
 
   return (
     <div className="pixelated-photo-container">
-      <h1 className="pixelated-title">seu amigo secreto é: {amigoSecreto}</h1>
+      <h1 id="pixelated-title" className="pixelated-title">seu amigo secreto é: </h1>
 
       <div
         className="pixelated-photo"

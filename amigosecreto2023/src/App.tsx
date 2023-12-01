@@ -26,7 +26,7 @@ function App() {
   });
   console.log(amigoSecreto)
   return (
-    <div className="App h-screen w-screen">
+    <div className="App h-screen w-screen bg-bgfamily2 lg:bg-bgfamily bg-no-repeat bg-cover">
       <button id="startAudio" onClick={startAudio} style={{ display: 'none' }}></button>
 
       {amigoSecreto ? '' : <Input setAmigoSecreto={setAmigoSecreto} />}
