@@ -3,7 +3,7 @@ import './App.css';
 
 import React, { useState } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { Box, Input, PixelatedPhoto} from './Components';
+import { Box, Input, PixelatedPhoto } from './Components';
 import { OrbitControls } from '@react-three/drei';
 import sorteios from './data/sorteios.json'
 import AudioHandler from './Handlers/AudioHandler';
@@ -14,7 +14,7 @@ function App() {
   const [audioStarted, setAudioStarted] = useState(false);
   const [show, setShow] = useState(false);
   function startAudio() {
-    if(!amigoSecreto){
+    if (!amigoSecreto) {
       AudioHandler.playChristmasSong()
     }
   }
@@ -26,14 +26,15 @@ function App() {
   });
   console.log(amigoSecreto)
   return (
-    <div className="App h-screen w-screen">
+    <div className="App h-screen w-screen bg-bgfamily2 lg:bg-bgfamily bg-no-repeat bg-cover">
       <button id="startAudio" onClick={startAudio} style={{ display: 'none' }}></button>
 
       {amigoSecreto ? '' : <Input setAmigoSecreto={setAmigoSecreto} />}
 
       {show ? (
         <PixelatedPhoto
-          imageUrl={(sorteios as any)[amigoSecreto]}
+          imageUrl={(sorteios as any)[amigoSecreto].image}
+          amigoSecreto={(sorteios as any)[amigoSecreto].amigoSecreto}
           pixelSize={70}
           duration={6000}
         />
@@ -42,7 +43,7 @@ function App() {
           <OrbitControls />
           <ambientLight intensity={0.5} />
           <directionalLight position={[-2, 5, 2]} intensity={1} />
-          {amigoSecreto ? <Box setShow={setShow}/> : ''}
+          {amigoSecreto ? <Box setShow={setShow} /> : ''}
         </Canvas>
       )}
     </div>

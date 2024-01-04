@@ -1,0 +1,142 @@
+{
+  "Zizi": {
+    "imagem": "url4",
+    "amigoSecreto": "Rick",
+    "senha": 155080
+  },
+  "Gustavo": {
+    "imagem": "url26",
+    "amigoSecreto": "Zizi",
+    "senha": 559483
+  },
+  "Lara": {
+    "imagem": "url10",
+    "amigoSecreto": "Gustavo",
+    "senha": 585186
+  },
+  "Carol": {
+    "imagem": "url5",
+    "amigoSecreto": "Lara",
+    "senha": 696891
+  },
+  "Luzinete": {
+    "imagem": "url13",
+    "amigoSecreto": "Carol",
+    "senha": 664360
+  },
+  "Arthur": {
+    "imagem": "url22",
+    "amigoSecreto": "Luzinete",
+    "senha": 756819
+  },
+  "Romilda": {
+    "imagem": "url9",
+    "amigoSecreto": "Arthur",
+    "senha": 258197
+  },
+  "Guilherme": {
+    "imagem": "url24",
+    "amigoSecreto": "Romilda",
+    "senha": 814402
+  },
+  "Emilia": {
+    "imagem": "url21",
+    "amigoSecreto": "Guilherme",
+    "senha": 507442
+  },
+  "Daniel": {
+    "imagem": "url8",
+    "amigoSecreto": "Emilia",
+    "senha": 331295
+  },
+  "Luciana": {
+    "imagem": "url27",
+    "amigoSecreto": "Daniel",
+    "senha": 838097
+  },
+  "Guto": {
+    "imagem": "url17",
+    "amigoSecreto": "Luciana",
+    "senha": 245319
+  },
+  "Edla": {
+    "imagem": "url12",
+    "amigoSecreto": "Guto",
+    "senha": 470511
+  },
+  "Claudio": {
+    "imagem": "url6",
+    "amigoSecreto": "Edla",
+    "senha": 547556
+  },
+  "Ruy": {
+    "imagem": "url25",
+    "amigoSecreto": "Claudio",
+    "senha": 749751
+  },
+  "Davi": {
+    "imagem": "url23",
+    "amigoSecreto": "Ruy",
+    "senha": 370489
+  },
+  "MHelena": {
+    "imagem": "url15",
+    "amigoSecreto": "Davi",
+    "senha": 838626
+  },
+  "Ericka": {
+    "imagem": "mhurl2",
+    "amigoSecreto": "MHelena",
+    "senha": 691654
+  },
+  "Tarsila": {
+    "imagem": "url7",
+    "amigoSecreto": "Ericka",
+    "senha": 120980
+  },
+  "Ruy Junior": {
+    "imagem": "url19",
+    "amigoSecreto": "Tarsila",
+    "senha": 264024
+  },
+  "Edu": {
+    "imagem": "url18",
+    "amigoSecreto": "Ruy Junior",
+    "senha": 270749
+  },
+  "Ruy neto": {
+    "imagem": "url16",
+    "amigoSecreto": "Edu",
+    "senha": 577819
+  },
+  "Roberto": {
+    "imagem": "url20",
+    "amigoSecreto": "Ruy neto",
+    "senha": 113207
+  },
+  "Bia": {
+    "imagem": "roburl1",
+    "amigoSecreto": "Roberto",
+    "senha": 722348
+  },
+  "Milena": {
+    "imagem": "url14",
+    "amigoSecreto": "Bia",
+    "senha": 472602
+  },
+  "Paula": {
+    "imagem": "miurl3",
+    "amigoSecreto": "Milena",
+    "senha": 571725
+  },
+  "Matheus": {
+    "imagem": "url11",
+    "amigoSecreto": "Paula",
+    "senha": 626948
+  },
+  "Rick": {
+    "imagem": "url28",
+    "amigoSecreto": "Matheus",
+    "senha": 486241
+  }
+}
