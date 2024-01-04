@@ -1,29 +1,30 @@
 const {expect} = require('chai')
 // import sinon from 'sinon';
+const functions = require('./functions.js');
 const { 
   add,
   getArray,
-  addValueToConstant,
-  blockStatement2,
-  boolean1,
-  boolean2,
+ 
+  blockStatement1,
+
   runLoop,
-  compare
-} = require('./functions.js')
+} = functions;
+
+const Sinon = require('sinon');
 describe('tests', () => {
  // afterEach(() => sinon.restore());
 
     // Arithmetic Operator
-    it('Should add two numbers', async () => {
-      const result = add(1,2)
+    // it('Should add two numbers', async () => {
+    //   const result = add(1,2)
       
-      expect(3).to.be.eql(3);
-    });
+    //   expect(result).to.be.eql(3);
+    // });
 
     it('Should add two numbers fail', async () => {
       const result = add(1,2)
-      
-      expect(3).to.be.eql(3);
+      const response = 'resposta_da_api'
+      expect(response).to.be.eql('resposta_da_api');
     });
 
     // Array Declaration
@@ -39,20 +40,21 @@ describe('tests', () => {
       expect(3).to.be.eql(3);
     });
 
-    // Assignment expression
-    it('Should add two numbers', async () => {
-      const result = add(1,2)
-      
-      expect(3).to.be.eql(3);
-    });
-
-    it('Should add two numbers fail', async () => {
-      const result = add(1,2)
-      
-      expect(3).to.be.eql(3);
-    });
-
+    
     // Block Statement
+    it('Should run loop 10 times', async () => {
+      // const blockSpy = Sinon.spy(functions)
+      const res = runLoop(10);
+      expect(res.count).to.be.equal(10)
+    });
+
+    // it('Should run loop 10 times fail', async () => {
+    //   // const blockSpy = Sinon.spy(functions)
+    //   const c = runLoop(10);
+    //   expect(c.name).to.be.equal('runLoop')
+    // });
+
+    // Assignment expression
     // Boolean Literal
     // Checked statement
     // Conditional expression

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha ./src",
-    "test:coverage": "nyc --include=src/** mocha ./src --timeout 60000 --colors"
+    "test:coverage": "nyc --include=src/** mocha ./src --timeout 60000 --colors",
+    "test:mutation": "stryker run"
   },
   "author": "",
   "license": "ISC",
