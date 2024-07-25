@@ -1,7 +1,17 @@
 import fileHelper
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
-followers = fileHelper.getProfilesFromInstastuffFile('./followers.txt')
-following = fileHelper.getProfilesFromInstastuffFile('./following.txt')
+current = os.getenv('CURRENT')
+old = os.getenv('OLD')
+
+if current == None or old == None:
+    print('Please set the CURRENT and OLD env variables')
+    exit()
+    
+followers = fileHelper.getProfilesFromInstastuffFile(f'./followers-{current}.txt')
+following = fileHelper.getProfilesFromInstastuffFile(f'./following-{current}.txt')
 
 notFollowing = []
 notFollower = []
@@ -12,11 +22,11 @@ for follow in following:
     if follow not in followers:
         notFollower.append(follow)
 
-f = open("not-followers-23_03.txt", "a")
+f = open(f'not-followers-{current}.txt', "a")
 f.write(str(notFollower))
 f.close()
 print(f'Not followers: {len(notFollower)}')
-f = open("not-following-23_03.txt", "a")
+f = open(f"not-following-{current}.txt", "a")
 f.write(str(notFollowing))
 print(f'Not following: {len(notFollowing)}')
 f.close()

@@ -40,7 +40,7 @@ def _request(user_id, session_id, query_hash, edge_name, startId = ''):
     logging.debug(r.text)
 
     if (r.status_code != 200):
-        logging.debug("Error: %s", r.text);
+        logging.debug("Error: %s", r.text)
         raise RuntimeError('Request failed; status: ' + str(r.status_code))
 
     r_json = r.json()
