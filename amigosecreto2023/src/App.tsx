@@ -28,15 +28,15 @@ function App() {
   });
   console.log(amigoSecreto)
   return (
-    <div className="App h-screen w-screen bg-bgfamily2 lg:bg-bgfamily bg-no-repeat bg-cover">
+    <div className="App h-screen w-screen bg-no-repeat bg-cover">
       <button id="startAudio" onClick={startAudio} style={{ display: 'none' }}></button>
 
       {amigoSecreto ? '' : <Input setAmigoSecreto={setAmigoSecreto} />}
 
       {show ? (
         <PixelatedPhoto
-          imageUrl={(sorteios as any)[amigoSecreto].image}
-          amigoSecreto={(sorteios as any)[amigoSecreto].amigoSecreto}
+          imageUrl={""}
+          amigoSecreto={(sorteios as any)[amigoSecreto]?.amigoSecreto || (sorteios2 as any)[amigoSecreto]?.amigoSecreto}
           pixelSize={70}
           duration={6000}
         />

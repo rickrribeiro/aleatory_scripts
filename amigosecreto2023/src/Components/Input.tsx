@@ -39,7 +39,7 @@ const Input = (props: any) => {
 
 
   return (
-    <div className='h-screen w-screen bg-red-100 flex items-center lg:bg-bgfamily bg-bgfamily2 bg-no-repeat bg-cover'>
+    <div className='h-screen w-screen bg-red-100 flex items-center  bg-no-repeat bg-cover'>
       <div className="max-w-md mx-auto bg rounded-lg overflow-hidden md:max-w-lg">
         <div className="md:flex">
           <div className="w-full p-4">
