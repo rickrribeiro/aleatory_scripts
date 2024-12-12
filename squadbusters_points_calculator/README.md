@@ -1,0 +1,1 @@
+project to calculate how many trophies each rank position is earning per day to see how many points i need to do to get the position
