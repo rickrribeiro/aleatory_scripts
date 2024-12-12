@@ -6,6 +6,8 @@ import { Canvas } from '@react-three/fiber';
 import { Box, Input, PixelatedPhoto } from './Components';
 import { OrbitControls } from '@react-three/drei';
 import sorteios from './data/sorteios.json'
+import sorteios2 from './data/sorteios2.json'
+
 import AudioHandler from './Handlers/AudioHandler';
 
 

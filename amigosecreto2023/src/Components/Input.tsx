@@ -1,6 +1,8 @@
 import React, { useRef, useEffect, useState } from 'react';
 import bgInput from '../assets/images/bginput.jpg'
 import sorteios from '../data/sorteios.json'
+import sorteios2 from '../data/sorteios2.json'
+
 import AudioHandler from '../Handlers/AudioHandler';
 
 const Input = (props: any) => {
@@ -11,7 +13,10 @@ const Input = (props: any) => {
     setInputValue(newValue);
 
     if (newValue.length >= 6) {
-      const amigoSecreto = Object.keys(sorteios).find((el) => newValue === (sorteios as any)[el].senha);
+      const amigoSecreto = [...Object.keys(sorteios), ...Object.keys(sorteios2)].find((el) =>
+        newValue === ((sorteios as any)[el]?.senha || (sorteios2 as any)[el]?.senha)
+      );
+
       if (amigoSecreto) {
         props.setAmigoSecreto(amigoSecreto)
         AudioHandler.playWeAre()

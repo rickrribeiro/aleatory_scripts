@@ -1,142 +1,147 @@
 {
-  "Caca": {
-    "image": "https://drive.google.com/uc?export=download&id=1PEvwxUbetycpjg6ji8Ne_BPzJOUgnoyD",
-    "amigoSecreto": "Arthur",
-    "senha": "346744"
-  },
-  "Luzinete": {
-    "image": "https://drive.google.com/uc?export=download&id=1aLXTrSwNrl6P56gCvHprDn5_Gqzn48BR",
-    "amigoSecreto": "Caca",
-    "senha": "580287"
-  },
-  "Matheus": {
-    "image": "https://drive.google.com/uc?export=download&id=1JAykIW0P4vKremf5MyTLLhOK_LBU5NxB",
-    "amigoSecreto": "Luzinete",
-    "senha": "151457"
-  },
-  "Paula": {
-    "image": "https://drive.google.com/uc?export=download&id=1ulCqJ5uHH0WL0km2HsgdfYSzhMMlHq_X",
-    "amigoSecreto": "Matheus",
-    "senha": "235709"
-  },
-  "Guto": {
-    "image": "https://drive.google.com/uc?export=download&id=1l91_0Fq-7xPWrojlIwumYv06Jy7V3H2M",
-    "amigoSecreto": "Paula",
-    "senha": "231081"
-  },
-  "Emilinha": {
-    "image": "https://drive.google.com/uc?export=download&id=1-MK2AmKEJsLPBI5HjB9DKYvCiODWF2Qr",
-    "amigoSecreto": "Guto",
-    "senha": "172383"
-  },
-  "Edla": {
-    "image": "https://drive.google.com/uc?export=download&id=1lORVdff4auwoxIHA9taZNLuE7OZv14XL",
-    "amigoSecreto": "Emilinha",
-    "senha": "620675"
-  },
-  "Tarsila": {
-    "image": "https://drive.google.com/uc?export=download&id=13rC7djMr-nxbd_QYGWI9dlGI60NC9vFH",
-    "amigoSecreto": "Edla",
-    "senha": "302007"
-  },
-  "Ruy neto": {
-    "image": "https://drive.google.com/uc?export=download&id=1TPCTL_pUL0dtGfbzhDsif5d5Fa7i3TNs",
-    "amigoSecreto": "Tarsila",
-    "senha": "762232"
-  },
-  "Daniel": {
-    "image": "https://drive.google.com/uc?export=download&id=1MdmKOHDpkDydjLdbNipbnGqtss52-QoD",
-    "amigoSecreto": "Ruy neto",
-    "senha": "303318"
-  },
-  "Lara": {
-    "image": "https://drive.google.com/uc?export=download&id=10delpFGLECpCmBHYsiDy5NYUBgODkQ_J",
-    "amigoSecreto": "Daniel",
-    "senha": "315594"
-  },
-  "Rick": {
-    "image": "https://drive.google.com/uc?export=download&id=179BEQNKRvEBDr5pucQxjPtGSw8fQS6Ae",
-    "amigoSecreto": "Lara",
-    "senha": "926098"
-  },
-  "MHelena": {
-    "image": "https://drive.google.com/uc?export=download&id=17psMXAHr8_HQ5gJIOtooS8t5GFNHEYdQ",
-    "amigoSecreto": "Rick",
-    "senha": "554771"
-  },
-  "Claudio": {
-    "image": "https://drive.google.com/uc?export=download&id=1AQB6pLVZ5AaL8KAKvXUf2Ihv8PsqRPWH",
-    "amigoSecreto": "MHelena",
-    "senha": "522316"
-  },
-  "Gustavo": {
-    "image": "https://drive.google.com/uc?export=download&id=1dzuoJOOH2t1hZyyx334P3dy5SujRCwY4",
-    "amigoSecreto": "Claudio",
-    "senha": "562842"
-  },
-  "Romilda": {
-    "image": "https://drive.google.com/uc?export=download&id=1hiogywTYiPZn56j8jCbeKCDkn-uEZ1Ku",
-    "amigoSecreto": "Gustavo",
-    "senha": "389617"
-  },
-  "Luciana": {
-    "image": "https://drive.google.com/uc?export=download&id=1pFEPiJT_hqramDa4hVTQAF_CU7LYkdGv",
-    "amigoSecreto": "Romilda",
-    "senha": "561324"
-  },
-  "Bia": {
-    "image": "https://drive.google.com/uc?export=download&id=17EkFG_eOhpRip3Or4uNG3DiRmX0RJ1EC",
-    "amigoSecreto": "Luciana",
-    "senha": "188838"
-  },
-  "Guilherme": {
-    "image": "https://drive.google.com/uc?export=download&id=1REPq6OruGogQmjxxyiRBkXBUPZKXc7l8",
-    "amigoSecreto": "Bia",
-    "senha": "215515"
-  },
-  "Zizi": {
-    "image": "https://drive.google.com/uc?export=download&id=1FNrA7fzdBzxSJZGjxMmPk0rqMLp221Z5",
-    "amigoSecreto": "Guilherme",
-    "senha": "120289"
-  },
   "Davi": {
-    "image": "https://drive.google.com/uc?export=download&id=12G5mF9EJXiDZ0K23DPLNKb78lClwd3fE",
-    "amigoSecreto": "Zizi",
-    "senha": "450915"
-  },
-  "Roberto": {
-    "image": "https://drive.google.com/uc?export=download&id=19AlIPgJ2mK82EtohQDK1ZM1CEqqOQE1s",
-    "amigoSecreto": "Davi",
-    "senha": "785686"
-  },
-  "Milena": {
-    "image": "https://drive.google.com/uc?export=download&id=1dxJRb-iX4feKET0WlvKriTLiJv8IqoDX",
-    "amigoSecreto": "Roberto",
-    "senha": "588284"
-  },
-  "Ruyzinho": {
-    "image": "https://drive.google.com/uc?export=download&id=18wPLxYj7H16-3LbsG8mMiFGPsAE3QwH6",
-    "amigoSecreto": "Milena",
-    "senha": "459239"
-  },
-  "Edu": {
-    "image": "https://drive.google.com/uc?export=download&id=1GNmP_fqMNyqJv-OZWKw1LWwwAPJ29a94",
+    "image": "",
     "amigoSecreto": "Ruyzinho",
-    "senha": "305210"
+    "senha": "878895"
+  },
+  "Guiga": {
+    "image": "",
+    "amigoSecreto": "Davi",
+    "senha": "948742"
   },
   "Ruy": {
-    "image": "https://drive.google.com/uc?export=download&id=1aqulbOmntv6y0jfCLH3-Nynr1c2gYGeK",
-    "amigoSecreto": "Edu",
-    "senha": "903780"
+    "image": "",
+    "amigoSecreto": "Guiga",
+    "senha": "554928"
   },
   "Ericka": {
-    "image": "https://drive.google.com/uc?export=download&id=1HbhLyoI5pYb3ZkxNIusMkQtllcHFgCwZ",
+    "image": "",
     "amigoSecreto": "Ruy",
-    "senha": "638202"
+    "senha": "673804"
   },
-  "Arthur": {
-    "image": "https://drive.google.com/uc?export=download&id=1z3VNQ0RldLBIDuBVzpWvQ6O4f5CvqWUM",
+  "Roberto": {
+    "image": "",
     "amigoSecreto": "Ericka",
-    "senha": "796972"
+    "senha": "161867"
+  },
+  "Bia": {
+    "image": "",
+    "amigoSecreto": "Roberto",
+    "senha": "919248"
+  },
+  "Romilda": {
+    "image": "",
+    "amigoSecreto": "Bia",
+    "senha": "566781"
+  },
+  "Paula": {
+    "image": "",
+    "amigoSecreto": "Romilda",
+    "senha": "301484"
+  },
+  "Ruy neto": {
+    "image": "",
+    "amigoSecreto": "Paula",
+    "senha": "385408"
+  },
+  "Roberta": {
+    "image": "",
+    "amigoSecreto": "Ruy neto",
+    "senha": "337820"
+  },
+  "Daniel": {
+    "image": "",
+    "amigoSecreto": "Roberta",
+    "senha": "399416"
+  },
+  "Luzinete": {
+    "image": "",
+    "amigoSecreto": "Daniel",
+    "senha": "738124"
+  },
+  "Rick": {
+    "image": "",
+    "amigoSecreto": "Luzinete",
+    "senha": "362859"
+  },
+  "Joao marcelo": {
+    "image": "",
+    "amigoSecreto": "Rick",
+    "senha": "818031"
+  },
+  "Emilinha": {
+    "image": "",
+    "amigoSecreto": "Joao marcelo",
+    "senha": "586448"
+  },
+  "Claudio": {
+    "image": "",
+    "amigoSecreto": "Emilinha",
+    "senha": "319177"
+  },
+  "Guto": {
+    "image": "",
+    "amigoSecreto": "Claudio",
+    "senha": "205821"
+  },
+  "Edla": {
+    "image": "",
+    "amigoSecreto": "Guto",
+    "senha": "915402"
+  },
+  "Tarsila": {
+    "image": "",
+    "amigoSecreto": "Edla",
+    "senha": "785126"
+  },
+  "Rafael": {
+    "image": "",
+    "amigoSecreto": "Tarsila",
+    "senha": "677261"
+  },
+  "Gustavo": {
+    "image": "",
+    "amigoSecreto": "Rafael",
+    "senha": "836225"
+  },
+  "Lara": {
+    "image": "",
+    "amigoSecreto": "Gustavo",
+    "senha": "891773"
+  },
+  "Matheus": {
+    "image": "",
+    "amigoSecreto": "Lara",
+    "senha": "490224"
+  },
+  "Zizi": {
+    "image": "",
+    "amigoSecreto": "Matheus",
+    "senha": "455435"
+  },
+  "MHelena": {
+    "image": "",
+    "amigoSecreto": "Zizi",
+    "senha": "905703"
+  },
+  "Milena": {
+    "image": "",
+    "amigoSecreto": "MHelena",
+    "senha": "408072"
+  },
+  "Guilherme": {
+    "image": "",
+    "amigoSecreto": "Milena",
+    "senha": "866238"
+  },
+  "Caca": {
+    "image": "",
+    "amigoSecreto": "Guilherme",
+    "senha": "432536"
+  },
+  "Ruyzinho": {
+    "image": "",
+    "amigoSecreto": "Caca",
+    "senha": "490903"
   }
 }

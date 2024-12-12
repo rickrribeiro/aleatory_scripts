@@ -1,0 +1,62 @@
+{
+  "Dennys": {
+    "image": "",
+    "amigoSecreto": "Zamyra",
+    "senha": "600490"
+  },
+  "Eleo": {
+    "image": "",
+    "amigoSecreto": "Dennys",
+    "senha": "258334"
+  },
+  "Tania": {
+    "image": "",
+    "amigoSecreto": "Eleo",
+    "senha": "560527"
+  },
+  "Abraham": {
+    "image": "",
+    "amigoSecreto": "Tania",
+    "senha": "848386"
+  },
+  "Carlo": {
+    "image": "",
+    "amigoSecreto": "Abraham",
+    "senha": "924049"
+  },
+  "Osmary": {
+    "image": "",
+    "amigoSecreto": "Carlo",
+    "senha": "609500"
+  },
+  "Naomy": {
+    "image": "",
+    "amigoSecreto": "Osmary",
+    "senha": "148341"
+  },
+  "Ricardo": {
+    "image": "",
+    "amigoSecreto": "Naomy",
+    "senha": "887717"
+  },
+  "Sean": {
+    "image": "",
+    "amigoSecreto": "Ricardo",
+    "senha": "261206"
+  },
+  "Lourdes": {
+    "image": "",
+    "amigoSecreto": "Sean",
+    "senha": "905810"
+  },
+  "Kassandra": {
+    "image": "",
+    "amigoSecreto": "Lourdes",
+    "senha": "497424"
+  },
+  "Zamyra": {
+    "image": "",
+    "amigoSecreto": "Kassandra",
+    "senha": "657423"
+  }
+}
