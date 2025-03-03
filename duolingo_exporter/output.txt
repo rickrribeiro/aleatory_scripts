@@ -1,0 +1,282 @@
+あかい;red
+red;あかい
+あかるい;bright, cheerful, well-lit
+bright, cheerful, well-lit;あかるい
+あたまがいい;smart
+smart;あたまがいい
+あに;my older brother
+my older brother;あに
+あね;my older sister
+my older sister;あね
+いいえ;no
+no;いいえ
+いしゃ;doctor, doctors
+doctor, doctors;いしゃ
+いそがしい;busy
+busy;いそがしい
+いち;one, an
+one, an;いち
+いま;now, current
+now, current;いま
+いもうと;my younger sister
+my younger sister;いもうと
+うるさい;noisy
+noisy;うるさい
+えき;station, train station, stations
+station, train station, stations;えき
+おいしい;good, delicious, tasty
+good, delicious, tasty;おいしい
+おおきい;big, large
+big, large;おおきい
+おおさか;Osaka
+Osaka;おおさか
+おしゃれ;fashionable, stylish, well-dressed
+fashionable, stylish, well-dressed;おしゃれ
+おちゃ;green teas, green tea, tea
+green teas, green tea, tea;おちゃ
+おっと;my husband
+my husband;おっと
+おとうと;my younger brother
+my younger brother;おとうと
+おなまえは;what's your name
+what's your name;おなまえは
+おはようございます;good morning
+good morning;おはようございます
+おもしろい;interesting, fun, funny
+interesting, fun, funny;おもしろい
+か;or, is it?, that
+or, is it?, that;か
+かいしゃいん;office worker
+office worker;かいしゃいん
+かさ;umbrella, umbrellas
+umbrella, umbrellas;かさ
+かぞく;family
+family;かぞく
+かっこいい;cool, good-looking, stylish
+cool, good-looking, stylish;かっこいい
+かばん;bag
+bag;かばん
+かわいい;cuter, cute, pretty
+cuter, cute, pretty;かわいい
+かんごし;nurse
+nurse;かんごし
+がくせい;student, students
+student, students;がくせい
+きっぷ;ticket
+ticket;きっぷ
+きれい;clean
+clean;きれい
+くうこう;airport
+airport;くうこう
+ください;please
+please;ください
+くつ;shoes, shoe
+shoes, shoe;くつ
+けん;Ken, ticket
+Ken, ticket;けん
+ここ;here
+here;ここ
+この;this, these
+this, these;この
+これ;this (one), these, this
+this (one), these, this;これ
+これら;these
+these;これら
+こんにちは;hello, hi
+hello, hi;こんにちは
+こんばんは;tonight, good evening, this evening
+tonight, good evening, this evening;こんばんは
+ごはん;rice, meal, meals
+rice, meal, meals;ごはん
+ごろ;around, about
+around, about;ごろ
+さい;years old
+years old;さい
+さん;Mr., Miss, Mrs.
+Mr., Miss, Mrs.;さん
+しずか;quiet
+quiet;しずか
+しゅっしん;from, origin, hometown
+from, origin, hometown;しゅっしん
+しろい;white
+white;しろい
+じ;o'clock
+o'clock;じ
+じゃあね;bye
+bye;じゃあね
+じゃないです;is not, we're not, aren't
+is not, we're not, aren't;じゃないです
+すし;sushi
+sushi;すし
+すみません;excuse me
+excuse me;すみません
+せんせい;teacher, Professor, teachers
+teacher, Professor, teachers;せんせい
+そこ;there
+there;そこ
+その;the, that, its
+the, that, its;その
+それ;that (one), it, that
+that (one), it, that;それ
+それら;they, them, those
+they, them, those;それら
+たなか;Tanaka
+Tanaka;たなか
+だいがく;university, college
+university, college;だいがく
+だいがくせい;college student
+college student;だいがくせい
+ちいさい;small, little
+small, little;ちいさい
+ちかてつ;subway
+subway;ちかてつ
+ちず;map
+map;ちず
+つま;my wife
+my wife;つま
+です;there is, it's, I'm
+there is, it's, I'm;です
+と;and, that, door
+and, that, door;と
+とし;years, cities, city
+years, cities, city;とし
+とても;very
+very;とても
+どう;how (about), what, how
+how (about), what, how;どう
+どうぞよろしく;nice to meet you
+nice to meet you;どうぞよろしく
+どこ;where
+where;どこ
+なおみ;Naomi
+Naomi;なおみ
+なかやま;Nakayama
+Nakayama;なかやま
+なんじ;what time
+what time;なんじ
+に;to, in, as (a)
+to, in, as (a);に
+にぎやか;lively
+lively;にぎやか
+にすんでいます;is living
+is living;にすんでいます
+にほん;Japan
+Japan;にほん
+にほんじん;Japanese
+Japanese;にほんじん
+の;for, 's, one
+for, 's, one;の
+は;is, with, regarding
+is, with, regarding;は
+はい;yes
+yes;はい
+はじめまして;nice to meet you, how do you do
+nice to meet you, how do you do;はじめまして
+はな;flowers, flower, Hana
+flowers, flower, Hana;はな
+はん;thirty
+thirty;はん
+ひと;person, people
+person, people;ひと
+べんごし;lawyer, lawyers
+lawyer, lawyers;べんごし
+ぼうし;hat, hats
+hat, hats;ぼうし
+またあした;see you tomorrow
+see you tomorrow;またあした
+まち;town, wait, city
+town, wait, city;まち
+みず;water
+water;みず
+むすこ;my son
+my son;むすこ
+むすめ;my daughter
+my daughter;むすめ
+も;even, any, also
+even, any, also;も
+やさしい;kind, easy, nice
+kind, easy, nice;やさしい
+やまぐち;Yamaguchi
+Yamaguchi;やまぐち
+ゆうめい;famous
+famous;ゆうめい
+ようこそ;welcome
+welcome;ようこそ
+わたしの;my, mine
+my, mine;わたしの
+アメリカ;America, the USA, the US
+America, the USA, the US;アメリカ
+アメリカじん;American
+American;アメリカじん
+イギリス;Britain, the United Kingdom, British
+Britain, the United Kingdom, British;イギリス
+イギリスじん;British
+British;イギリスじん
+エンジニア;engineer
+engineer;エンジニア
+カナダ;Canada
+Canada;カナダ
+カナダじん;Canadian
+Canadian;カナダじん
+カレー;curry
+curry;カレー
+ケーキ;cake
+cake;ケーキ
+コンビニ;convenience store
+convenience store;コンビニ
+コート;coat
+coat;コート
+スマホ;smartphone
+smartphone;スマホ
+デパート;department store
+department store;デパート
+トロント;Toronto
+Toronto;トロント
+ニューヨーク;New York
+New York;ニューヨーク
+バスてい;bus stop
+bus stop;バスてい
+パスポート;passport
+passport;パスポート
+ピザ;pizza
+pizza;ピザ
+ブラジル;Brazil
+Brazil;ブラジル
+ブラジルじん;Brazilian
+Brazilian;ブラジルじん
+ホテル;hotel
+hotel;ホテル
+ラーメン;ramen
+ramen;ラーメン
+一;one, an, a
+one, an, a;一
+七;7, seven, seventh
+7, seven, seventh;七
+三;3, three, third
+3, three, third;三
+中山;Nakayama
+Nakayama;中山
+二;two, 2
+two, 2;二
+五;5, five
+5, five;五
+京都;Kyoto
+Kyoto;京都
+六;six
+six;六
+四;four
+four;四
+山口;Yamaguchi
+Yamaguchi;山口
+日本;Japan, Japanese
+Japan, Japanese;日本
+東京;Tokyo
+Tokyo;東京
+母;mom, mother, my mom
+mom, mother, my mom;母
+父;dad
+dad;父
+田中;Tanaka
+Tanaka;田中
+私;I
+I;私
